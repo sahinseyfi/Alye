@@ -70,7 +70,7 @@ export default function Home() {
 
           <div className="menu-card">
             <div className="menu-img-wrapper">
-              <img src="/images/ayran.jpeg" alt="Ayran" />
+              <img src="/images/ayran.png" alt="Ayran" />
             </div>
             <div className="menu-content">
               <div className="menu-header">
