@@ -1,4 +1,5 @@
 import './globals.css';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Alye | Geleneksel Lezzet',
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
         <nav className="navbar">
           <div className="container nav-container">
             <div className="nav-logo">
-              <img src="/images/logo.jpeg" alt="Alye Logo" width="40" height="40" />
+              <Image src="/images/logo.jpeg" alt="Alye Logo" width={40} height={40} style={{ borderRadius: '50%', objectFit: 'cover' }} />
               Alye
             </div>
             <div className="nav-links">

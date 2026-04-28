@@ -13,7 +13,7 @@ export default function Home() {
           
           <div className="menu-card">
             <div className="menu-img-wrapper">
-              <img src="/images/tavukdöner.png" alt="Ekmek Arası Tavuk Döner" />
+              <Image src="/images/tavukdöner.png" alt="Ekmek Arası Tavuk Döner" fill sizes="(max-width: 768px) 100vw, 33vw" />
             </div>
             <div className="menu-content">
               <div className="menu-header">
@@ -32,7 +32,7 @@ export default function Home() {
 
           <div className="menu-card">
             <div className="menu-img-wrapper">
-              <img src="/images/et.png" alt="Ekmek Arası Et Döner" />
+              <Image src="/images/et.png" alt="Ekmek Arası Et Döner" fill sizes="(max-width: 768px) 100vw, 33vw" />
             </div>
             <div className="menu-content">
               <div className="menu-header">
@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className="menu-card">
             <div className="menu-img-wrapper">
-              <img src="/images/köfte.png" alt="Ekmek Arası Köfte" />
+              <Image src="/images/köfte.png" alt="Ekmek Arası Köfte" fill sizes="(max-width: 768px) 100vw, 33vw" />
             </div>
             <div className="menu-content">
               <div className="menu-header">
@@ -70,7 +70,7 @@ export default function Home() {
 
           <div className="menu-card">
             <div className="menu-img-wrapper" style={{ backgroundColor: '#fff', padding: '1rem' }}>
-              <img src="/images/ayran.png" alt="Ayran" style={{ objectFit: 'contain', width: '100%', height: '100%' }} />
+              <Image src="/images/ayran.png" alt="Ayran" fill style={{ objectFit: 'contain' }} sizes="(max-width: 768px) 100vw, 33vw" />
             </div>
             <div className="menu-content">
               <div className="menu-header">
@@ -96,7 +96,7 @@ export default function Home() {
           <div className="footer-grid">
             <div>
               <div className="nav-logo" style={{ marginBottom: '1.5rem' }}>
-                <img src="/images/logo.jpeg" alt="Alye Logo" width="50" height="50" />
+                <Image src="/images/logo.jpeg" alt="Alye Logo" width={50} height={50} />
                 Alye
               </div>
               <p className="footer-text">Gelenekten geleceğe uzanan, damaklarda iz bırakan bir et ziyafeti.</p>
