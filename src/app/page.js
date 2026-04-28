@@ -75,11 +75,9 @@ export default function Home() {
         <div className="container">
           <div className="footer-grid">
             <div style={{ gridColumn: '1 / -1', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', paddingBottom: '2rem', marginBottom: '1rem', borderBottom: '1px solid var(--card-border)' }}>
-              <div style={{ position: 'relative', width: '150px', height: '150px', marginBottom: '1.5rem' }}>
+              <div style={{ position: 'relative', width: '150px', height: '150px' }}>
                 <Image src="/images/logo.jpeg" alt="Alye Logo" fill sizes="150px" style={{ borderRadius: '50%', objectFit: 'cover', border: '3px solid var(--primary)' }} />
               </div>
-              <h2 style={{ fontSize: '2.5rem', color: 'var(--primary)', marginBottom: '0.5rem', fontWeight: 700 }}>Alye</h2>
-              <p className="footer-text" style={{ maxWidth: '500px' }}>Gelenekten geleceğe uzanan, damaklarda iz bırakan bir et ziyafeti.</p>
             </div>
             <div style={{ textAlign: 'center' }}>
               <h4 className="footer-title">İletişim & Sipariş</h4>
