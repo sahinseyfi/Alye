@@ -7,7 +7,6 @@ export default function Home() {
       <section id="menu" className="section container" style={{ paddingTop: '120px' }}>
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <h1 style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--primary)' }}>Alye'ye Hoş Geldiniz</h1>
-          <p style={{ color: '#a3a3a3', marginTop: '0.5rem' }}>Geleneksel tarifler ve taze malzemelerle hazırlanan eşsiz lezzetler. Hemen sipariş verin.</p>
         </div>
         <div className="menu-grid">
           
