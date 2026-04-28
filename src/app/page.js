@@ -69,8 +69,8 @@ export default function Home() {
           </div>
 
           <div className="menu-card">
-            <div className="menu-img-wrapper">
-              <img src="/images/ayran.png" alt="Ayran" />
+            <div className="menu-img-wrapper" style={{ backgroundColor: '#fff', padding: '1rem' }}>
+              <img src="/images/ayran.png" alt="Ayran" style={{ objectFit: 'contain', width: '100%', height: '100%' }} />
             </div>
             <div className="menu-content">
               <div className="menu-header">
